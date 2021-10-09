@@ -1,9 +1,10 @@
 const apiKey = ''
+// API key can be found at https://www.yelp.com/developers/documentation/v3/get_started
 // if cors error, go to https://cors-anywhere.herokuapp.com/corsdemo
 const Yelp = {
     search(term, location, sortBy) { // retrieves search results from api
         return fetch(`https://cors-anywhere.herokuapp.com/https://api.yelp.com/v3/businesses/search?term=${term}&location=${location}&sort_by=${sortBy}`, {
-            headers: { // API can be found at https://www.yelp.com/developers/documentation/v3/get_started
+            headers: { 
                 Authorization: `Bearer ${apiKey}`
             }
         }).then(response => {
