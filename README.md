@@ -38,5 +38,5 @@ Don't have yelp downloaded? Use this app instead! Yelp_Project utilizes JavaScri
 
 Dane Christensen - danechristensen92@gmail.com
 
-Project Link: [https://github.com/Osborne92/Jammer](https://github.com/Osborne92/Jammer)
+Project Link: [https://github.com/Osborne92/Yelp_Project](https://github.com/Osborne92/Yelp_Project)
 
